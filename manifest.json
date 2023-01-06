@@ -1,0 +1,15 @@
+{
+  "name":"Time Requiem 2.0",
+  "version": "1.0.0",
+  "manifest_version":3,
+   "description":"A timer, might also keep track of all the things that has been done",
+  "author":"William Zeng",
+  "permissions": ["storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action":{
+    "default_popup":"index.html",
+    "default_title":"Time Experience Requiem "
+  }
+}
